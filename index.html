@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Daily Roast | Coffee Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-50 font-serif">
+    <section class="h-screen flex flex-col justify-center items-center text-center bg-stone-900 text-white px-6">
+        <h1 class="text-6xl font-bold mb-4 italic">The Daily Roast</h1>
+        <p class="text-xl text-stone-400 mb-8 max-w-lg">Freshly roasted beans, handcrafted brews, and a space for the community.</p>
+        <div class="space-x-4">
+            <a href="#menu" class="bg-orange-700 px-8 py-3 rounded-full font-bold">View Menu</a>
+            <a href="#contact" class="border border-white px-8 py-3 rounded-full font-bold">Visit Us</a>
+        </div>
+    </section>
+
+    <section id="menu" class="py-20 max-w-4xl mx-auto px-6">
+        <h2 class="text-4xl text-center mb-12">Our Coffee</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="flex justify-between border-b border-stone-300 pb-2">
+                <span>Espresso</span><span>$3.50</span>
+            </div>
+            <div class="flex justify-between border-b border-stone-300 pb-2">
+                <span>Caramel Macchiato</span><span>$5.50</span>
+            </div>
+            <div class="flex justify-between border-b border-stone-300 pb-2">
+                <span>Cold Brew</span><span>$4.50</span>
+            </div>
+            <div class="flex justify-between border-b border-stone-300 pb-2">
+                <span>Oat Milk Latte</span><span>$5.00</span>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-stone-200 py-10 text-center">
+        <p class="font-bold">123 Brew Street, Tech City</p>
+        <p class="text-stone-600">Open Daily: 7am - 8pm</p>
+    </footer>
+</body>
+</html>
